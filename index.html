@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="stylesheets/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="stylesheets/bookstorestyle.css">
+
+</head>
+<script src="stylesheets/angular.min.js"></script>
+<script src="stylesheets/angular-route.min.js"></script>
+<script src="bookstoreApp.js"></script>
+<script src="AppControllers/getCategories.js"></script>
+    <body ng-app="bookfarmApp">
+        <div class="container">
+       <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">bookfarm</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="#">Add New Category</a></li>
+      <li><a href="#/newBook">Add New Book</a></li>
+      <li><a href="#">Settings</a></li>
+      <li><a href="#">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+            {{ 4+5 }}
+            <ng-view></ng-view>
+        </div>
+        
+    </body>
+</html>

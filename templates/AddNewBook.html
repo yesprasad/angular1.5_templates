@@ -1,0 +1,31 @@
+<div class="container">
+    <form>
+        <table ng-controller="categoriesListController">
+            <select ng-options="c in categories">{{c}}</select>
+        <tr>
+            <td>
+                <label>Book name</label>
+            </td>
+            <td>
+                <input type="text" id="txtBookName" ng-model="bookName">
+            </td>
+            </tr>
+            <tr>
+            <td>
+                <label>Author</label>
+                </td>
+                <td>
+                <input type="text" id="txtAuthor" ng-model="authorName">
+                </td>
+            </tr>
+            <tr>
+            <td>
+                <label>Category</label>
+                </td>
+                <td>
+                  
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>

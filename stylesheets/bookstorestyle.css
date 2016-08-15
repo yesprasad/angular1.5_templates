@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'bookstoreCustomFont';
+    src: url('Roboto_Light.ttf');
+}
+body {
+  font-family: 'bookstoreCustomFont', Fallback, sans-serif;
+   margin: 30px 50px 0 50px;
+}
+.home-headline-h1 {
+     font-family: 'bookstoreCustomFont', Fallback, sans-serif;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
+
+.categories-list{
+     list-style-type: none;
+     display: inline;
+     margin: 10px 0 0 15px;
+    border: 1px solid black;
+     padding: auto 10px auto 10px;
+}
+
+.category-div-horizontal {
+    float:left;
+    width: 15%;
+    background-color: #AEA8D3;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.top40-horizontal {
+    float:left;
+    width: 15%;
+    background-color: #E4F1FE;
+    margin: 10px 10px 10px 10px;
+}
+
+.no-style-li {
+    list-style-type:none;
+}
+
+.div-tabs-panel {
+    align-self: center;
+}
